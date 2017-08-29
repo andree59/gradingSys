@@ -5,26 +5,50 @@
     <title>Grading</title>
 
   </head>
-
-    <header>
-        <p>Enter in a Number Grade, between 0 and 100, and the system will spit out<br>
-      YOUR Letter Grade</p>
-        <p>Check it out!</p>
-      <!--  <button type="submit">Submit</button>-->
-<form>
-        <!-- <input type="input" >Submit from 0 to 100</><br> -->
-        <input id="grade"</input>
-        <button id = "myButton" onClick="grade">Submit</button>
-        <!-- <button onclick="grade()">Submit</button> -->
-
-
-</form>
   <body>
 
 
+        <p>Enter in a Number Grade, between 0 and 100, and the system will spit out<br>
+      YOUR Letter Grade</p>
+        <p>Check it out!</p>
+        <!-- <button type="submit">Submit</button> -->
+
+        <!-- <p id="postGrade"></p> <!-empty p tag-->
+          <!-- <input id="grade0">Submit from 1 to 100</input><br> -->
+        <!-- <input type="input" >Submit from 0 to 100</input><br> -->
+
+
+        <!-- <p id1="You have an A"</h1>
+          <p id2="You have a B"</p>
+            <p> id3="You have a C"</p>
+              <p id4="You have a D"></p>
+               <p id5="You need a Tutor !"</p> -->
+        <!-- <button onClick="getGrades()">Submit</button> <br><! the () for the on click is for your function -->
+        <!-- <input type="reset" value="Reset">-->
+        <p> Now enter THREE seperate numbers for your Average Grade</p>
+        <p id="postAverage"></p> <!-- empty p tag-->
+          <input id="grade1">Enter your First number</input><br>
+          <p id="letter1"></p>
+          <input id="grade2">Enter your Second number</input><br>
+          <p id="letter2"></p>
+          <input id="grade3">Enter your Third number</input>
+          <p id="letter3"></p>
+          <!-- <input id="grade2"></input> -->
+
+        <button onClick="getAverage()">Submit</button> <!-- the () for the on click is for your function -->
 
 
 
-<script src="good.js"</script>
+
+
+        <!-- <button onclick="grade()">Submit</button> -->
+
+
+        <!-- <p id="averageGrade"></p> -->
+        <!-- <button onClick="getAverage()">Submit for your Average Grade</button> -->
+
+
+
+        <script src="good.js"></script>
   </body>
 </html>
